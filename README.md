@@ -48,7 +48,8 @@ Open the notebook in Jupyter Notebook or VS Code.
 
 Run the notebook cells step by step to preprocess data, train the model, and test text generation.
 
-📦 Requirements
+
+## 📦 Requirements
 Python 3.8+
 
 PyTorch
@@ -60,7 +61,8 @@ matplotlib
 Install the required libraries:
 pip install torch tqdm matplotlib
 
-🖥️ Usage
+
+## 🖥️ Usage
 Open Build_SLM_Model.ipynb in your notebook environment and follow the steps:
 
 Data preprocessing
@@ -73,15 +75,18 @@ Training loop
 
 Evaluation and text generation
 
-🎯 Motivation
+
+## 🎯 Motivation
 Large Language Models (LLMs) are powerful but computationally expensive.
 This project explores how Small Language Models (SLMs) can be built to balance performance and efficiency, making them suitable for learning, research, and low-resource environments.
 
-🙏 Acknowledgements
+
+## 🙏 Acknowledgements
 Inspired by modern transformer architectures (GPT, Gemma, nanoGPT).
 
 PyTorch community for deep learning utilities and documentation.
 
-📜 License
+
+## 📜 License
 This repository is for educational and research purposes only.
 Please check dataset and library licenses before production use.
