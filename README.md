@@ -1,31 +1,87 @@
-# Small Language Model (SLM) Project
+# Small Language Model (SLM) from Scratch
 
-This repository contains a Jupyter Notebook for building and experimenting with a **Small Language Model (SLM)**.  
-The project demonstrates how lightweight NLP models can be designed for efficiency and faster experimentation compared to Large Language Models (LLMs).
+This project demonstrates how to build a **Small Language Model (SLM)** entirely from scratch using **PyTorch**.  
+The notebook walks through dataset preparation, tokenization, model architecture, training, and inference.  
+The goal is to understand how transformer-based language models work at a smaller, resource-efficient scale.
 
-## 📌 Features
+---
+
+## 📑 Table of Contents
+- [Overview](#overview)  
+- [Features](#features)  
+- [Project Structure](#project-structure)  
+- [Quick Start](#quick-start)  
+- [Requirements](#requirements)  
+- [Usage](#usage)  
+- [Motivation](#motivation)  
+- [Acknowledgements](#acknowledgements)  
+- [License](#license)  
+
+---
+
+## 🔎 Overview
+This project builds a **transformer-based Small Language Model (SLM)** designed for efficient experimentation.  
+The core implementation is in the notebook:  
+**`Build_SLM_Model.ipynb`**
+
+---
+
+## 🚀 Features
 - Tokenization of text data  
-- Model architecture configuration (vocab size, context length, layers, etc.)  
-- Training workflow for a small transformer-based model  
-- Focus on efficiency and resource optimization  
+- Define model parameters (vocab size, hidden size, number of layers, etc.)  
+- Training and evaluation loop  
+- Efficient batch processing  
+- Inference for text generation  
 
-## 🚀 Getting Started
+---
 
-### 1. Clone the repository
-git clone https://github.com/YourUsername/SLM-Model.git
-2. Open the notebook
-jupyter notebook Build_SLM_Model.ipynb
+## 📂 Project Structure
+- **`Build_SLM_Model.ipynb`** → Main Jupyter Notebook with full implementation.  
 
-3. Install dependencies
-Make sure you have the required libraries installed:
-pip install torch transformers jupyter
+---
 
-## 🎯 Motivation
-Large Language Models (LLMs) are powerful but require heavy computation.
-This project explores the concept of Small Language Models (SLMs) — compact NLP models that balance performance, efficiency, and resource usage.
+## ⚡ Quick Start
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/YourUsername/SLM-Model.git
+Open the notebook in Jupyter Notebook or VS Code.
 
-## 📂 File Structure
-Build_SLM_Model.ipynb → Jupyter Notebook containing the full implementation.
+Run the notebook cells step by step to preprocess data, train the model, and test text generation.
 
-## 📜 License
-This project is released under the MIT License. Feel free to use and modify it for your own learning and research.
+📦 Requirements
+Python 3.8+
+
+PyTorch
+
+tqdm
+
+matplotlib
+
+Install the required libraries:
+pip install torch tqdm matplotlib
+
+🖥️ Usage
+Open Build_SLM_Model.ipynb in your notebook environment and follow the steps:
+
+Data preprocessing
+
+Tokenization
+
+Model definition (transformer-based SLM)
+
+Training loop
+
+Evaluation and text generation
+
+🎯 Motivation
+Large Language Models (LLMs) are powerful but computationally expensive.
+This project explores how Small Language Models (SLMs) can be built to balance performance and efficiency, making them suitable for learning, research, and low-resource environments.
+
+🙏 Acknowledgements
+Inspired by modern transformer architectures (GPT, Gemma, nanoGPT).
+
+PyTorch community for deep learning utilities and documentation.
+
+📜 License
+This repository is for educational and research purposes only.
+Please check dataset and library licenses before production use.
