@@ -7,12 +7,12 @@ The goal is to understand how transformer-based language models work at a smalle
 ---
 
 ## 📑 Table of Contents
-- [Overview](#overview)
-- [Features](#features)
-- [Project Structure](#project-structure)
-- [Quick Start](#quick-start)
-- [Requirements](#requirements)
-- [Usage](#usage)
+- [Overview](#-overview)
+- [Features](#-features)
+- [Project Structure](#-project-structure)
+- [Quick Start](#-quick-start)
+- [Requirements](#-requirements)
+- [Usage](#-usage)
 - [🎯 Motivation](#-motivation)
 - [📂 File Structure](#-file-structure)
 - [🙏 Acknowledgements](#-acknowledgements)
