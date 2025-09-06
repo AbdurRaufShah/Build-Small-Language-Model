@@ -82,9 +82,9 @@ This project explores how Small Language Models (SLMs) can be built to balance p
 
 
 ## 🙏 Acknowledgements
-Inspired by modern transformer architectures (GPT, Gemma, nanoGPT).
-
-PyTorch community for deep learning utilities and documentation.
+- Inspired by transformer-based models such as GPT and Gemma.  
+- TinyStories dataset from HuggingFace, used for training and evaluation.  
+- Thanks to the PyTorch community for tutorials and documentation. 
 
 
 ## 📜 License
