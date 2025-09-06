@@ -14,8 +14,9 @@ The goal is to understand how transformer-based language models work at a smalle
 - [Requirements](#requirements)
 - [Usage](#usage)
 - [🎯 Motivation](#-motivation)
-- [Acknowledgements](#acknowledgements)
-- [License](#license)
+- [📂 File Structure](#-file-structure)
+- [🙏 Acknowledgements](#-acknowledgements)
+- [📜 License](#-license)
 
 ---
 
