@@ -81,10 +81,11 @@ Large Language Models (LLMs) are powerful but computationally expensive.
 This project explores how Small Language Models (SLMs) can be built to balance performance and efficiency, making them suitable for learning, research, and low-resource environments.
 
 
-## 🙏 Acknowledgements
-- Inspired by transformer-based models such as GPT and Gemma.  
-- TinyStories dataset from HuggingFace, used for training and evaluation.  
-- Thanks to the PyTorch community for tutorials and documentation. 
+🙏 Acknowledgements
+- [roneneldan/TinyStories](https://huggingface.co/datasets/roneneldan/TinyStories) dataset used for training.  
+- Inspired by modern transformer architectures (GPT, Gemma, nanoGPT).  
+- PyTorch community for deep learning utilities and documentation.  
+
 
 
 ## 📜 License
